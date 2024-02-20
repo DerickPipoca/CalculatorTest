@@ -2,8 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        body: ["Barlow Semi Condensed"]
+      }
+    },
   },
-  plugins: [],
+  plugins: ['prettier-plugin-tailwindcss'],
 }
 
